@@ -6,7 +6,14 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
+    siteTitle: `Youmekko`,
+    siteTitleAlt: `Youmekko 프론트엔드 개발 블로그`,
+    author: `Youmekko`,
+    siteUrl: `https://youme.netlify.app`,
+    siteDescription: `Youmekko 프론트엔드 개발 블로그`,
+    siteHeadline: `Youmekko 프론트엔드 개발 블로그`,
+    siteLanguage: `ko`,
+    siteImage: `/banner.jpg`,
   },
   plugins: [
     {
@@ -22,15 +29,15 @@ module.exports = {
             title: `About`,
             slug: `/about`,
           },
+          {
+            title: `Tags`,
+            slug: `/tags`,
+          }
         ],
         externalLinks: [
           {
-            name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
-          },
-          {
-            name: `Instagram`,
-            url: `https://www.instagram.com/lekoarts.de/`,
+            name: `Github`,
+            url: `https://github.com/youmekko`,
           },
         ],
       },
