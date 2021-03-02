@@ -6,12 +6,12 @@ const shouldAnalyseBundle = process.env.ANALYSE_BUNDLE
 
 module.exports = {
   siteMetadata: {
-    siteTitle: `Youmekko`,
-    siteTitleAlt: `Youmekko 프론트엔드 개발 블로그`,
+    siteTitle: `Youmekko FE Dev `,
+    siteTitleAlt: `Youmekko FE Dev`,
     author: `Youmekko`,
     siteUrl: `https://youme.netlify.app`,
-    siteDescription: `Youmekko 프론트엔드 개발 블로그`,
-    siteHeadline: `Youmekko 프론트엔드 개발 블로그`,
+    siteDescription: `Youmekko FE Dev`,
+    siteHeadline: `Youmekko FE Dev`,
     siteLanguage: `ko`,
     siteImage: `/banner.jpg`,
   },
@@ -26,18 +26,22 @@ module.exports = {
             slug: `/blog`,
           },
           {
-            title: `About`,
-            slug: `/about`,
-          },
-          {
             title: `Tags`,
             slug: `/tags`,
+          },
+          {
+            title: `About`,
+            slug: `/about`,
           }
         ],
         externalLinks: [
           {
             name: `Github`,
             url: `https://github.com/youmekko`,
+          },
+          {
+            name: `Old Posts`,
+            url: `https://youmekko.github.io`,
           },
         ],
       },
